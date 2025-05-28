@@ -1,0 +1,32 @@
+/*
+ * Project: WeekPlanner
+ *
+ * Author: Vereshchynskyi Nazar
+ * Email: verechnazar12@gmail.com
+ * Version: 1.0.0
+ * Date: 28.05.2025
+ */
+
+/* --- DaySettingsScene --- */
+.scroll-pane {
+    -fx-background-color: #1b1f24;
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-opacity: 0;
+}
+
+.main-container {
+    -fx-pref-height: 500;
+    -fx-spacing: 30;
+
+    -fx-background-color: #1b1f24;
+    -fx-padding: 10 50 10 50;
+}
+
+.settings-container {
+	-fx-spacing: 10;
+    -fx-alignment: center;
+}
+/* --- DaySettingsScene --- */

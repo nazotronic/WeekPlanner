@@ -1,0 +1,157 @@
+/*
+ * Project: WeekPlanner
+ *
+ * Author: Vereshchynskyi Nazar
+ * Email: verechnazar12@gmail.com
+ * Version: 1.0.0
+ * Date: 28.05.2025
+ */
+
+/* --- PlanScene --- */
+.root {
+    -fx-padding: 0;
+    -fx-background-color: #ffe7e7;
+}
+
+.scroll-pane {
+     -fx-hbar-policy: never;
+     -fx-vbar-policy: never;
+}
+
+.plan-container {
+    -fx-padding: 20;
+    -fx-spacing: 5;
+
+    -fx-background-color: #ffe7e7;
+}
+/* --- PlanScene --- */
+
+/* --- Element PlanHeader --- */
+.plan-header {
+	-fx-spacing: 2;
+}
+
+.header-day-column {
+	-fx-border-color: black
+}
+
+.header-day-column-label {
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.hour-box {
+	-fx-border-color: transparent, lightgray, transparent, transparent;
+}
+
+.hour-box-label {
+    -fx-text-fill: black;
+    -fx-font-size: 10px;
+}
+
+.fact-column {
+	-fx-min-width: 60;
+	-fx-border-color: black
+}
+
+.fact-column-label {
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+/* --- Element PlanHeader --- */
+
+
+/* --- Element PlanWorkers --- */
+.plan-workers {
+	-fx-spacing: 2;
+}
+
+.name-column {
+	-fx-border-color: black;
+}
+
+.name-column-label {
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.worker-day-column {
+	-fx-border-color: gray
+}
+
+.hour-division {
+	-fx-border-color: lightgray;
+	-fx-border-width: 0 1 0 0;
+}
+
+.worker-shift {
+	-fx-fill: #e9ae7e;
+    -fx-arc-width: 10px;
+    -fx-arc-height: 10px;
+}
+
+.fact-column {
+	-fx-min-width: 60;
+	-fx-border-color: black
+}
+
+.fact-column-label {
+    -fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+/* --- Element PlanWorkers --- */
+
+
+/* --- Element PlanManageButtons --- */
+.plan-manage {
+	-fx-padding: 20;
+	-fx-spacing: 10;
+	-fx-alignment: center;
+
+	-fx-background-color: #f4dcdc;
+}
+
+.plan-manage-back {
+	-fx-max-width: 150;
+
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-radius: 15;
+
+    -fx-background-color: grey;
+    -fx-background-radius: 16;
+
+	-fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-cursor: hand;
+}
+
+.plan-manage-confirm {
+	-fx-max-width: 150;
+
+    -fx-border-color: transparent;
+    -fx-border-width: 1;
+    -fx-border-radius: 15;
+
+	-fx-background-color: #4CAF50;
+    -fx-background-radius: 16;
+
+	-fx-text-fill: black;
+    -fx-font-size: 15px;
+    -fx-cursor: hand;
+}
+
+
+.plan-manage-back:hover {
+	-fx-border-color: black;
+    -fx-background-color: derive(gray, -20%);
+}
+.plan-manage-confirm:hover {
+	-fx-border-color: black;
+	-fx-background-color: derive(#4CAF50, -20%);
+}
+/* --- Element PlanManageButtons --- */

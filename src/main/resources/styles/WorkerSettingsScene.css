@@ -1,0 +1,78 @@
+/*
+ * Project: WeekPlanner
+ *
+ * Author: Vereshchynskyi Nazar
+ * Email: verechnazar12@gmail.com
+ * Version: 1.0.0
+ * Date: 28.05.2025
+ */
+
+/* --- WorkerSettingsScene --- */
+.scroll-pane {
+    -fx-background-color: #1b1f24;
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-opacity: 0;
+}
+
+.main-container {
+    -fx-pref-height: 500;
+    -fx-spacing: 30;
+
+    -fx-background-color: #1b1f24;
+    -fx-padding: 10 50 10 50;
+}
+
+.settings-container {
+	-fx-spacing: 10;
+    -fx-alignment: center;
+}
+/* --- WorkerSettingsScene --- */
+
+/* --- Element WorkerTimeInfo --- */
+.worker-time-info {
+	-fx-max-width: 600;
+    -fx-padding: 10 0 10 0;
+}
+
+.worker-time-info-label {
+    -fx-text-fill: green;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+/* --- Element WorkerTimeInfo --- */
+
+/* --- Element LogButtons --- */
+.log-buttons {
+	-fx-padding: 20;
+	-fx-spacing: 10;
+	-fx-alignment: center;
+}
+
+.log-buttons-label {
+    -fx-text-fill: aqua;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.log-buttons-input {
+	-fx-max-width: 100;
+
+    -fx-border-color: aqua;
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+
+    -fx-text-fill: aqua;
+    -fx-font-size: 15px;
+    -fx-cursor: hand;
+}
+
+.log-buttons-input:hover {
+	-fx-border-color: green;
+}
+/* --- Element LogButtons --- */

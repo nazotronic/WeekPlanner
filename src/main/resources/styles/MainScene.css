@@ -1,0 +1,64 @@
+/*
+ * Project: WeekPlanner
+ *
+ * Author: Vereshchynskyi Nazar
+ * Email: verechnazar12@gmail.com
+ * Version: 1.0.0
+ * Date: 28.05.2025
+ */
+
+/* --- MainScene --- */
+.scroll-pane {
+    -fx-background-color: #1b1f24;
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-opacity: 0;
+}
+
+.main-container {
+    -fx-background-color: #1b1f24;
+    -fx-padding: 10 50 10 50;
+}
+
+.cards-container {
+    -fx-hgap: 20;
+    -fx-vgap: 20;
+}
+/* --- MainScene --- */
+
+/* --- Element CardButton --- */
+.card-button {
+    -fx-pref-width: 250;
+    -fx-pref-height: 280;
+
+    -fx-spacing: 10;
+    -fx-alignment: center;
+
+    -fx-border-color: #555555;
+    -fx-border-width: 2;
+    -fx-border-radius: 15;
+
+    -fx-background-color: rgba(30, 30, 30, 0.8);
+    -fx-background-radius: 15;
+
+    -fx-effect: dropshadow(gaussian, transparent, 0, 0, 0, 0);
+    -fx-cursor: hand;
+}
+
+.card-button-label {
+    -fx-text-fill: aqua;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+
+.card-button:hover {
+    -fx-border-color: #00ffff;
+    -fx-border-width: 2;
+
+    -fx-background-color: rgba(30, 30, 30, 0.9);
+    -fx-effect: dropshadow(gaussian, #00ffff, 10, 0.4, 0, 0);
+}
+/* --- Element CardButton --- */

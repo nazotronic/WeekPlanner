@@ -1,0 +1,15 @@
+<Configuration status="WARN">
+    <Appenders>
+        <!-- Запис у файл -->
+        <File name="FileAppender" fileName="D:/weekPlan/app.log" append="true">
+            <PatternLayout>
+                <Pattern>%d{yyyy-MM-dd HH:mm:ss} [%t] %-5level - %msg%n</Pattern>
+            </PatternLayout>
+        </File>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="FileAppender"/>
+        </Root>
+    </Loggers>
+</Configuration>

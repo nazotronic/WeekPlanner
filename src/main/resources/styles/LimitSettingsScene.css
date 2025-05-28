@@ -1,0 +1,116 @@
+/*
+ * Project: WeekPlanner
+ *
+ * Author: Vereshchynskyi Nazar
+ * Email: verechnazar12@gmail.com
+ * Version: 1.0.0
+ * Date: 28.05.2025
+ */
+
+/* --- LimitSettingsScene --- */
+.scroll-pane {
+    -fx-background-color: #1b1f24;
+    -fx-padding: 0;
+}
+
+.scroll-bar:vertical, .scroll-bar:horizontal {
+    -fx-opacity: 0;
+}
+
+.main-container {
+    -fx-pref-height: 500;
+    -fx-spacing: 30;
+
+    -fx-background-color: #1b1f24;
+    -fx-padding: 10 50 10 50;
+}
+
+.settings-container {
+	-fx-spacing: 10;
+    -fx-alignment: center;
+}
+/* --- LimitSettingsScene --- */
+
+/* --- Element SettingChoice --- */
+.setting-choice {
+    -fx-max-width: 600;
+    -fx-padding: 10 0 10 0;
+
+    -fx-border-color: aqua transparent transparent transparent;
+    -fx-border-width: 2 0 0 0;
+}
+
+.setting-choice-label {
+    -fx-text-fill: aqua;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.setting-choice-input {
+    -fx-pref-width: 150;
+    -fx-padding: 5;
+    -fx-alignment: center-left;
+
+    -fx-border-color: aqua;
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+
+    -fx-background-color: transparent;
+    -fx-background-radius: 20;
+}
+
+
+.combo-box-popup .list-view {
+    -fx-background-color: black;
+    -fx-background-radius: 20;
+    -fx-border-radius: 20;
+    -fx-border-color: aqua;
+    -fx-border-width: 2;
+    -fx-padding: 5;
+}
+
+.combo-box-popup .list-cell {
+    -fx-background-color: black;
+    -fx-text-fill: aqua;
+    -fx-border-width: 0;
+    -fx-padding: 8 10;
+    -fx-font-size: 14px;
+}
+
+.combo-box-popup .list-cell:hover {
+    -fx-background-color: #003333;
+    -fx-font-size: 16px;
+    -fx-scale-x: 1.02;
+    -fx-scale-y: 1.02;
+    -fx-cursor: hand;
+}
+
+.setting-choice-input .list-cell:filled:selected {
+    -fx-text-fill: aqua;
+    -fx-font-size: 15px;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+    -fx-border-color: aqua;
+    -fx-border-radius: 20;
+
+    -fx-cursor: hand;
+}
+
+.combo-box .arrow {
+    -fx-background-color: aqua;
+}
+/* --- Element SettingChoice --- */
+
+/* --- Element LimitHospitalView --- */
+.limit-hospital-view {
+	-fx-alignment: center;
+}
+/* --- Element LimitHospitalView --- */
+
+/* --- Element LimitVacationView --- */
+.limit-vacation-view {
+	-fx-alignment: center;
+}
+/* --- Element LimitVacationView --- */
